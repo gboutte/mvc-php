@@ -49,7 +49,7 @@ $response->setHeader('Content-Type', 'application/json');
 
 ## Controller class
 In the controller each function defined as a route must return a response object
-```
+```php
 public function index()
 {
     $renderer = new Renderer();
